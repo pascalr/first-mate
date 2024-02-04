@@ -2,6 +2,8 @@
  # First Mate
 [![CI](https://github.com/atom/first-mate/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/first-mate/actions/workflows/ci.yml)
 
+This is a simple fork that replaces oniguruma with onigasm.
+
 TextMate helpers
 
 ## Installing

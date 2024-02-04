@@ -5,5 +5,5 @@ module.exports =
 
 # This allows this file to be processed with `electron-link`
 Object.defineProperty(module.exports, 'OnigRegExp', {
-  get: -> require('oniguruma').OnigRegExp
+  get: -> require('onigasm').OnigRegExp
 })

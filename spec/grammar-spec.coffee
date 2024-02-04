@@ -518,7 +518,7 @@ describe "Grammar tokenization", ->
         expect(console.error).toHaveBeenCalled()
 
     describe "when a grammar has a pattern that has back references in the match value", ->
-      it "does not special handle the back references and instead allows oniguruma to resolve them", ->
+      it "does not special handle the back references and instead allows onigasm to resolve them", ->
         loadGrammarSync('scss.json')
         grammar = registry.grammarForScopeName('source.css.scss')
         {line, tags} = grammar.tokenizeLine("@mixin x() { -moz-selector: whatever; }")

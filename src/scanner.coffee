@@ -1,4 +1,4 @@
-{OnigScanner} = require 'oniguruma'
+{OnigScanner} = require 'onigasm'
 
 # Wrapper class for {OnigScanner} that caches them based on the presence of any
 # anchor characters that change based on the current position being scanned.

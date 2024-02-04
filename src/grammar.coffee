@@ -2,7 +2,7 @@ path = require 'path'
 
 _ = require 'underscore-plus'
 fs = require 'fs-plus'
-{OnigRegExp, OnigString} = require 'oniguruma'
+{OnigRegExp, OnigString} = require 'onigasm'
 {Emitter} = require 'event-kit'
 Grim = require 'grim'
 
